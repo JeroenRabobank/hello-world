@@ -1,8 +1,0 @@
-class com.sap.sample.video.Video extends Component {
-
-	/* Plays a video file located at given URL. */ 
-	void play(/* URL of video file */ String videoUrl) {*
-		this.src = "<reset>";
-		this.src = videoUrl;
-	*}
-}

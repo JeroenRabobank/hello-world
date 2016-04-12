@@ -1,7 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: Design Studio SDK Extension Sample Video
-Bundle-SymbolicName: com.sap.sample.video;singleton:=true
-Bundle-Version: 16.0.5.qualifier
-Require-Bundle: com.sap.ip.bi.zen.rt.components.sdk
-Bundle-Vendor: SAP
