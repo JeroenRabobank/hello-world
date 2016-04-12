@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdkExtension
+	xmlns="http://www.sap.com/bi/zen/sdk"
+	id="com.sap.sample.simpletable"
+	title="Design Studio SDK Extension Sample Simple Table"
+	version="16.0"
+	vendor="SAP">
+	<component
+		id="SimpleTable"
+		title="Simple Table"
+		icon="res/icon.png"
+    modes="commons m"    
+		handlerType="div"
+		propertySheetPath="res/additional_properties_sheet/additional_properties_sheet.html"
+		databound="true">
+		<jsInclude>res/js/component.js</jsInclude>
+		<property
+			id="column1"
+			title="Column 1"
+			type="ResultCellList"
+			group="DataBinding">
+			<option name="includeFormattedData" value="true"/>
+			<option name="includeData" value="false"/>
+		</property>
+		<property
+			id="column2"
+			title="Column 2"
+			type="ResultCellList"
+			group="DataBinding">
+			<option name="includeFormattedData" value="true"/>
+			<option name="includeData" value="false"/>
+		</property>
+		<property
+			id="column3"
+			title="Column 3"
+			type="ResultCellList"
+			group="DataBinding">
+			<option name="includeFormattedData" value="true"/>
+			<option name="includeData" value="false"/>
+		</property>
+		<initialization>
+			<defaultValue property="LEFT_MARGIN">40</defaultValue>
+			<defaultValue property="TOP_MARGIN">40</defaultValue>
+			<defaultValue property="WIDTH">150</defaultValue>
+			<defaultValue property="HEIGHT">200</defaultValue>
+		</initialization>
+	</component>
+</sdkExtension>
