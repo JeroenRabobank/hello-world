@@ -1,5 +1,5 @@
 sap.designstudio.sdk.PropertyPage.subclass("com.sap.sample.SimpleTablePropertyPage", function() {
-
+// Hello World
 	var that = this;
 
 	this.init = function() {
