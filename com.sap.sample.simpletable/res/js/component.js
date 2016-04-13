@@ -1,5 +1,6 @@
 sap.designstudio.sdk.Component.subclass("com.sap.sample.simpletable.SimpleTable", function() {
 // hello world
+	// And a second line Added
 	var CSS_CLASS_DIV = "sapzencrosstab-TableDiv";
 	var CSS_CLASS_TABLE = "sapzencrosstab-Crosstab";
 	var CSS_CLASS_TR_HEADER = 'sapzencrosstab-HeaderRow sapzencrosstab-DimensionHeaderArea';
